@@ -1,14 +1,1 @@
-2026-03-29 11:47:27,660 - Failed login attempt - username: Efe, reason: wrong password
-2026-03-29 11:47:27,660 - Successful login - username: Efe, age: 18
-2026-03-29 11:57:52,253 - Login failed - age too low (13) for username: 'efe'
-2026-03-29 12:24:47,875 - Login successful - username: 'duru', age: 23
-2026-03-29 12:26:31,621 - Login failed - wrong password entered by username: 'suzusuussu123\'
-2026-03-29 12:32:00,124 - Login failed - inappropriate username attempted: 'fuckniggers'
-2026-03-29 12:33:18,634 - Login failed - unrealistic age (6767676776) for username: 'efe babaprio gamer ç\u0131nasr'
-2026-03-29 12:33:33,305 - Login successful - username: '67', age: 67
-2026-03-29 12:36:39,565 - Login failed - inappropriate username attempted: 'niggerfucks'
-2026-03-29 13:31:57,921 - Login failed - age too low (16) for username: 'Tolga'
-2026-03-29 13:32:16,582 - Login successful - username: 'tolga', age: 18
-2026-03-29 13:32:46,894 - Login failed - inappropriate username attempted: 'fuck'
-2026-03-29 17:54:47,496 - Login failed - inappropriate username attempted: 'fucker'
-2026-03-29 17:55:19,716 - Login successful - username: 'Valorant<CS2', age: 19
+
