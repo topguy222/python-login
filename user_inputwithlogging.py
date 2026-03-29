@@ -13,7 +13,7 @@ logging.basicConfig(
 name = input("Enter your username: ").strip()
 if not name:
     logging.warning("Login failed - empty username entered")
-    print("That's not a valid username (for more information visit www.system.com)")
+    print("That's not a valid username (for more information visit www.xpxsoftware.com)")
     input("Press enter to exit")
     exit()
 
@@ -26,11 +26,11 @@ if any(bad_word.lower() in name.lower() for bad_word in BANNED_WORDS):
     input("Press Enter to exit...")
     exit()
 
-SYSTEM_PASSWORD = "systemsoft123"
-userinput = input("Enter the password you were given (for more information visit www.system.com):")
+SYSTEM_PASSWORD = "xpxsoftware123"
+userinput = input("Enter the password you were given (for more information visit www.xpxsoftware.com):")
 if userinput != SYSTEM_PASSWORD:
     logging.warning(f"Login failed - wrong password entered by username: '{name}'")
-    print("That's not a valid password (for more information visit www.system.com)")
+    print("That's not a valid password (for more information visit www.xpxsoftware.com)")
     input("Press enter to exit")
     exit()
 
@@ -38,19 +38,19 @@ try:
     age = int(input("Enter your age: "))
 except ValueError:
     logging.warning(f"Login failed - non-numeric age entered by username: '{name}'")
-    print("Please enter a valid age (for more information visit www.system.com)")
+    print("Please enter a valid age (for more information visit www.xpxsoftware.com)")
     input("Press enter to exit")
     exit()
 
 if age < 18:
     logging.warning(f"Login failed - age too low ({age}) for username: '{name}'")
-    print("You need to be 18 years old or older to sign in (for more information visit www.system.com)")
+    print("You need to be 18 years old or older to sign in (for more information visit www.xpxsoftware.com)")
     input("Press enter to exit")
     exit()
 
 elif age > 122:
     logging.warning(f"Login failed - unrealistic age ({age}) for username: '{name}'")
-    print("Please enter a realistic age (for more information visit www.system.com)")
+    print("Please enter a realistic age (for more information visit www.xpxsoftware.com)")
     input("Press enter to exit")
     exit()
 
