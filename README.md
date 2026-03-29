@@ -1,6 +1,4 @@
-password is : systemsoft123 
+Basic python-login system
 
-
-
-no cuss words as username
+password is: systemsoft123 (hardcoded)
 
